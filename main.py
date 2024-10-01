@@ -22,6 +22,14 @@ executor_name = "skidsploit" # name of your executor
 # kz0x1 was here
 
 import os
+# Check and install required packages
+required_packages = ['requests', 'pystyle']
+
+for package in required_packages:
+    try:
+        __import__(package)
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package, '--quiet'])
 import time
 import requests
 import zipfile
