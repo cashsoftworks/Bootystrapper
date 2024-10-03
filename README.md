@@ -8,6 +8,8 @@ Welcome to the **Bootystrapper**! This project serves as an open-sourced templat
 - **Auto-Download**: Automatically downloads a zip file from a specified URL.
 - **Installation**: Extracts the downloaded files to a specified folder on the user's Desktop.
 - **Dependency Management**: Automatically installs required Python packages if they are not already installed.
+- **Beautiful Console**: Just pleasing to eyes.
+![Image](showcase.png)
 
 ## Requirements
 
