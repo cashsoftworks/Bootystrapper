@@ -27,13 +27,13 @@ Before you begin, ensure you have met the following requirements:
    Clone this repository to your local machine using the following command:
    ```bash
    git clone https://github.com/cashsoftworks/Bootystrapper
-   cd skidsploit-updater
+   cd bootystrapper 
    ```
 
 2. **Install Required Packages**:
    The script will check for necessary packages and install them automatically when run. However, you can manually install them by running:
    ```bash
-   pip install requests pystyle --quiet
+   pip install requests pystyle
    ```
 
 3. **Configure the Script**:
